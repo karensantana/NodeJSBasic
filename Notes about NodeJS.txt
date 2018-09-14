@@ -1,0 +1,8 @@
+*****************************
+Basic Node.js configuration:
+*****************************
+Installation that i've followed:
+https://www.youtube.com/watch?v=YYnf5vJRuUY&feature=youtu.be&list=PLC3y8-rFHvwh11bWtwm3_qKvo46uDmaal
+
+Basic training: 
+https://medium.com/@andrewhartnett/tutorial-building-a-simple-blog-with-node-express-mongo-8e760630db74
