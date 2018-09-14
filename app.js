@@ -1,10 +1,38 @@
-var express = require('express');
+
+var express = require("express");
 var app = express();
+var port = 3000;
+//Conecting to database
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+var mongoose = require("mongoose");
+mongoose.Promise = global.Promise;
+mongoose.connect("mongodb://localhost:27017/node-demo");
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+var nameSchema = new mongoose.Schema({
+  firstName: String,
+  lastNameName: String
+ });
+var User = mongoose.model("User", nameSchema);
+
+var bodyParser = require('body-parser');
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.post("/addname", (req, res) => {
+  var myData = new User(req.body);
+  myData.save()
+  .then(item => {
+  res.send("item saved to database");
+  })
+  .catch(err => {
+  res.status(400).send("unable to save to database");
+  });
+ });
+ 
+app.use("/", (req, res) => {
+  res.sendFile(__dirname + "/index.html");
+ });
+ 
+app.listen(port, () => {
+ console.log("Server listening on port " + port);
 });
