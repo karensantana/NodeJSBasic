@@ -9,6 +9,9 @@ https://www.youtube.com/watch?v=YYnf5vJRuUY&feature=youtu.be&list=PLC3y8-rFHvwh1
 Basic training: 
 https://codeburst.io/hitchhikers-guide-to-back-end-development-with-examples-3f97c70e0073
 
+Great tutorial using Express, Node.Js Mongoose and MongoDb
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/mongoose
+
 
 This one did not work: :P
 https://medium.com/@andrewhartnett/tutorial-building-a-simple-blog-with-node-express-mongo-8e760630db74
