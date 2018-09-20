@@ -2,6 +2,8 @@
 Basic Node.js configuration:
 *****************************
 Installation that i've followed:
+REMEMBER ADDING THE PATH TO THE SYSTEM FOLLOWING THIS INSTRUCTION:
+https://dangphongvanthanh.wordpress.com/2017/06/12/add-mongos-bin-folder-to-the-path-environment-variable/
 https://www.youtube.com/watch?v=YYnf5vJRuUY&feature=youtu.be&list=PLC3y8-rFHvwh11bWtwm3_qKvo46uDmaal
 
 Basic training: 
